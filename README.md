@@ -1,4 +1,4 @@
-# Course python
+# Course python - channel youtube nanajanashia
 #Course basic of python, after we will learn Machine Learning, Data Science and Backend
 
 #Themes of course
