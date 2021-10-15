@@ -27,3 +27,6 @@ print("Hallo " + "Welt")
 
 #case where we have a string and number then given error this case, we must convert the number in string
 print("Price of action Intel: " + str(52.3) + " dollars")
+#other way is 
+print(f"Price of action Intel: {30 + 20} dollars") #we can inside {} realize 
+#operations
