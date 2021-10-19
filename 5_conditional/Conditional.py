@@ -56,7 +56,13 @@ Number_3 = int(input("First number: ")) #other way convert string to number
 Number_4 = int(input("Second number: "))
 
 def floor_division(a, b):
-    return a//b
+    if b != 0:
+        return a//b
+    elif b == 0: #else if as c++ or javascript
+        # = assigning a value to a variable
+        # == check for equality
+        return "Can't floor_division"
+
 
 Floor_value = floor_division(Number_3, Number_4)
 print(f"Result:  {Floor_value}")
