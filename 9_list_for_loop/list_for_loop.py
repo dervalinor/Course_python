@@ -27,3 +27,29 @@ def string_list(list_num):
         print(f"{num} ")
 
 Result = string_list(list_num)
+
+print("\n")
+
+#comments several lines
+"""Basic list operations
+
+1- create a list 
+2- add an item to the list
+3- remove an item from the list
+4- change items in the list 
+5- access items of the list """
+
+my_list = ["book", "stocks", "analysis", "time"]
+
+#access item of the list
+#Now we going to access to element in the position zero
+
+element_zero = my_list[0] #first element of the list
+print(f"first element of the list: {element_zero}")
+
+#second element of the list
+print(f"second element of the list: {my_list[2]}")
+
+#add element to the list
+my_list.append("think")
+print(f"New element to the list: {my_list}")
