@@ -5,16 +5,13 @@
 # similar to if statements, a loops evaluate to true or false
 # a loop is executing while the condition is true
 
-#create a function for give 3 times thank you and after 1000 times thank you !!!
+#create a function where user could say when want exit this
 
-condition_thank = True
-num = 0
+option = "No"
 
-def thank_you(condition_thank, num):
-    while condition_thank == True:
-        return print("Thank you very much !!!")
-        num = num + 1
-        if num ==  3:
-            condition_thank = False #as is false finished the loop
+while option == "No" or option == "no" or option == "NO":
+    #if is true execute code
 
-
+    #logic operator: and (must are all options true) - or (only option true)
+    option = input("do you sure of exit?: ")
+    print("\n")
