@@ -8,4 +8,4 @@
 #4. accepting user input
 #5. input validation with conditionals (if/else)
 #6. error handling with try / except
-#7. looping: for loop, while loop
+#7. looping: for loop, while loop.
